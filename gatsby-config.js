@@ -48,7 +48,7 @@ module.exports = {
         short_name: `Delog`,
         start_url: `/`,
         background_color: `#fff`,
-        theme_color: `#381696`,
+        theme_color: `#1E7A99`,
         display: `standalone`,
         icon: "src/images/icon.png",
       },
