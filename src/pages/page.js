@@ -20,9 +20,7 @@ const NewPage = ({
       <Helmet>
         <title>{site.siteMetadata.title}</title>
         <meta name="description" content={site.siteMetadata.description} />
-
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-        <script src={withPrefix('script.js')} type="text/javascript"></script>
+        <script src={withPrefix('../static/script.js')} type="text/javascript"></script>
 
 
 

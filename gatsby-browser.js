@@ -1,7 +1,6 @@
 import "./src/styles/global.scss"
 
-
-const $ = require("jquery")
+const $ = require("jQuery")
 
 export const onInitialClientRender = () => {
   $(document).ready(function () {
