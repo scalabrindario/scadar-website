@@ -20,7 +20,7 @@ const NewPage = ({
       <Helmet>
         <title>{site.siteMetadata.title}</title>
         <meta name="description" content={site.siteMetadata.description} />
-        <script src={withPrefix('../static/script.js')} type="text/javascript"></script>
+        <script src={withPrefix('../static/script.js')} type="text/javascript"/>
 
 
 
