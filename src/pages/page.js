@@ -3,7 +3,6 @@ import Helmet from 'react-helmet';
 import { graphql } from 'gatsby'
 import Layout from "../components/layout"
 import PostLink from "../components/post-link"
-import HeroHeader from "../components/heroHeader"
 
 const NewPage = ({
   data: {
@@ -22,7 +21,6 @@ const NewPage = ({
         <title>{site.siteMetadata.title}</title>
         <meta name="description" content={site.siteMetadata.description} />
       </Helmet>
-      <HeroHeader/>
       <h2>Blog Posts &darr;</h2>
       <div className="grids">
         {Posts}
