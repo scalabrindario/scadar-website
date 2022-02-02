@@ -46,7 +46,7 @@ export default ({ children }) => {
         </li>
       </ul>
       </div>
-        <p>&copy; {new Date().getFullYear()} Dario Scalabrin &bull; Made with <span role="img" aria-label="love">❤️</span> by <a href="https://www.linkedin.com/in/scalabrindario/">Dario Scalabrin</a></p>
+        <p>&copy; {new Date().getFullYear()} &bull; Made with <span role="img" aria-label="love">❤️</span> by <a href="https://www.linkedin.com/in/scalabrindario/">Dario Scalabrin</a></p>
       </footer>
     </div>
   )
