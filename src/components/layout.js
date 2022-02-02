@@ -29,19 +29,19 @@ export default ({ children }) => {
       <ul class="soc">
         <li>        
           <a class="icon-10 facebook" href="https://www.facebook.com/dario.scalabrin" title="Facebook">
-            <img class="social-button" src="https://img.icons8.com/material/50/000000/facebook--v1.png"/>
+            <img class="social-button" src="https://img.icons8.com/material/512/000000/facebook--v1.png"/>
           </a>
         </li>
 
         <li>
           <a class="icon-15 instagram" href="http://instagram.com/scalabrindario/" title="Instagram">
-            <img class="social-button" src="https://img.icons8.com/ios-glyphs/30/000000/instagram-new.png"/>
+            <img class="social-button" src="https://img.icons8.com/ios-glyphs/512/000000/instagram-new.png"/>
           </a>
         </li>
 
         <li>
           <a class="icon-17 linkedin" href="http://linkedin.com/in/scalabrindario/" title="LinkedIn">
-            <img class="social-button" src="https://img.icons8.com/ios-glyphs/30/000000/linkedin.png"/>
+            <img class="social-button" src="https://img.icons8.com/ios-glyphs/512/000000/linkedin.png"/>
           </a>
         </li>
       </ul>
