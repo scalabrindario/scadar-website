@@ -148,15 +148,10 @@ a {
   height: 40px;
   width: 40px;
   display: block;
-  background: var(--btn-bg);
-  color: var(--btn-text-color);
-  font-weight: 400;
+  fill: var(--primary-color);
+  color: var(--primary-color);
   overflow: visible;
-  transition: background-color .3s linear;
-  &.-primary {
-    background-color: var(--primary-color);
-    border-color: var(--primary-color);
-    color: var(--primary-text-color);
+  &.-primary {color: var(--primary-color);
   }
 }
 .primary-content {
