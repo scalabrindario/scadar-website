@@ -35,7 +35,7 @@ export default ({ children }) => {
 
         <li>
           <a class="icon-15 instagram" href="http://instagram.com/scalabrindario/" title="Instagram">
-            <img class="social-button" src="https://img.icons8.com/ios-glyphs/512/000000/instagram-new.png"/>
+            <img class="social-button" src="https://img.icons8.com/material-outlined/512/000000/instagram-new--v1.png"/>
           </a>
         </li>
 
