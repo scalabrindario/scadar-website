@@ -142,6 +142,18 @@ a {
     color: var(--btn-hover-text-color);
   }
 }
+
+.social-button {
+  padding: 0 0 100%;
+  display: block;
+  background: var(--btn-bg);
+  color: var(--btn-text-color);
+  font-weight: 400;
+  overflow: visible;
+  transition: background-color .3s linear;
+}
+ 
+
 .primary-content {
   font-size: 18px;
   margin-bottom: 32px;
@@ -433,8 +445,6 @@ html{
   width: 100%;
   top: 0;
   left: 0;
-  fill: var(--primary-color)!important;
-  background-color: var(--background)!important;
 }
 
 .soc {
@@ -459,14 +469,6 @@ html{
     height: 41px;
     width: 41px;
   }
-}
 
-%social-icon-hover {
-  border-radius: 100%;
-  fill: var(--primary-color)!important;
-  background-color: var(--background)!important;
-  transform: scale(1.25);
-  transition: background-color .5s, transform .5s ease-out;
-}
 
 
