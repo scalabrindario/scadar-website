@@ -420,10 +420,6 @@ body.light {
 
 // Added my me
 
-html{
-  box-sizing: border-box
-}
-
 *, *:before, *:after{
   box-sizing: inherit;
 }
@@ -435,8 +431,8 @@ html{
   position: relative;
   height: 0;
   width: 100%;
-  fill: var(--primary-color)!important;
-  background-color: var(--background)!important;
+  fill: var(--primary-color);
+  background-color: var(--background);
 }
 
 .ir > *{
