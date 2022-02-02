@@ -464,11 +464,4 @@ html{
   transition: background-color .5s, transform .5s ease-out;
 }
 
-@for $i from 1 through 32
-  .icon-#{$i}
-    color: var(--primary-color);
-    &:hover
-      background-color: var(--featured-bg);
-      @extend %social-icon-hover
-
 
