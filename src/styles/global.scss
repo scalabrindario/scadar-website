@@ -27,7 +27,7 @@ body.light {
   --contact-bg: #f7f8fe;
   --contact-bdr: #d3d6e7;
   --input-bg: var(--background);
-  --color-social-button: filter: invert(36%) sepia(74%) saturate(484%) hue-rotate(149deg) brightness(97%) contrast(91%);
+  --color-social-button: invert(36%) sepia(74%) saturate(484%) hue-rotate(149deg) brightness(97%) contrast(91%);
 }
 body.dark {
   --primary-color: #33ccff;
