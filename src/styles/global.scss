@@ -459,7 +459,7 @@ html{
 
 %social-icon-hover {
   border-radius: 100%;
-  fill: color: var(--primary-color);
+  fill: var(--primary-color);
   background-color: var(--background);
   transform: scale(1.25);
   transition: background-color .5s, transform .5s ease-out;
