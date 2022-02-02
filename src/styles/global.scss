@@ -423,6 +423,7 @@ html{
   position: relative;
   height: 0;
   width: 100%;
+
 }
 
 .ir > *{
@@ -431,6 +432,8 @@ html{
   width: 100%;
   top: 0;
   left: 0;
+  fill: var(--primary-color);
+  background-color: var(--background);
 }
 
 .soc {
@@ -441,8 +444,6 @@ html{
   text-align: center;
   width: 1760px;
   max-width: 100%;
-  fill: var(--primary-color);
-  background-color: var(--background);
 
   li{
     display: inline-block;
