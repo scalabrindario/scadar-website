@@ -31,9 +31,9 @@ const NewPage = ({
   )
 }
 
-export default IndexPage
+export default NewPage
 export const pageQuery = graphql`
-  query indexPageQuery {
+  query NewPageQuery {
     site {
       siteMetadata {
         title
