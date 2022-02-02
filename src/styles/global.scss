@@ -441,6 +441,8 @@ html{
   text-align: center;
   width: 1760px;
   max-width: 100%;
+  fill: var(--primary-color);
+  background-color: var(--background);
 
   li{
     display: inline-block;
@@ -459,8 +461,7 @@ html{
 
 %social-icon-hover {
   border-radius: 100%;
-  fill: var(--primary-color);
-  background-color: var(--background);
+  
   transform: scale(1.25);
   transition: background-color .5s, transform .5s ease-out;
 }
