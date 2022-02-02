@@ -1,6 +1,6 @@
 import React from "react"
 import Helmet from 'react-helmet';
-import { graphql } from 'gatsby'
+import { graphql, withPrefix, Link  } from 'gatsby'
 import Layout from "../components/layout"
 import PostLink from "../components/post-link"
 
@@ -20,6 +20,12 @@ const NewPage = ({
       <Helmet>
         <title>{site.siteMetadata.title}</title>
         <meta name="description" content={site.siteMetadata.description} />
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src={withPrefix('script.js')} type="text/javascript"></script>
+
+
+
       </Helmet>
     </Layout>
   )
