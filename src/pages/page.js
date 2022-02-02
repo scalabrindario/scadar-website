@@ -20,7 +20,7 @@ const NewPage = ({
       <Helmet>
         <title>{site.siteMetadata.title}</title>
         <meta name="description" content={site.siteMetadata.description} />
-        <script src={withPrefix('script.js')} type="text/javascript" />
+        <script src={withPrefix('../static/script.js')} type="text/javascript" />
       </Helmet>
 
             <div class="ag-timeline-block">
