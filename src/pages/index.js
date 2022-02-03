@@ -3,7 +3,6 @@ import Helmet from 'react-helmet';
 import { graphql } from 'gatsby'
 import Layout from "../components/layout"
 import PostLink from "../components/post-link"
-import HeroHeader from "../components/heroHeader"
 
 const IndexPage = ({
   data: {
@@ -22,7 +21,12 @@ const IndexPage = ({
         <title>{site.siteMetadata.title}</title>
         <meta name="description" content={site.siteMetadata.description} />
       </Helmet>
-      <HeroHeader/>
+
+      <div><h2>Hey, It's Dario!</h2></div>
+      <div><p>
+      Dario grew up in a family of entrepreneurs in the north of Italy, which nurtured his curiosity towards innovation, technology, and emerging trends. <br/> <br/> He studied in one of the largest Italian Innovation Hubs and worked in a Global Fortune 500 company. These experiences fostered the creation of an open-minded and risk-taker guy, who believes in the power of "doing what is right, not what is easy"
+        </p>
+      </div>
             <section class="timeline">
           <div class="container">
               <div class="timeline__wrapper">
