@@ -19,7 +19,6 @@ const Timeline = () => {
         </div>
       </header>
 
-      <!-- Timeline Section -->
       <section class="timeline">
           <div class="container">
               <div class="timeline__wrapper">
