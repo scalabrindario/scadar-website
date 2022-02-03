@@ -491,7 +491,6 @@ body.light {
 }
 
 html {
-  font-size: clamp(8px, 1vw, 10px);
   scrollbar-width: thin;
   scrollbar-color: #2c2c2c #0b0b0b;
 }
@@ -548,7 +547,7 @@ html::-webkit-scrollbar-thumb {
 .footer {
   text-align: center;
   padding: 10rem 0;
-  background-color: #0b0b0b;
+  background-color: var(--background);
 }
 
 .banner__title,
