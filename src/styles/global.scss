@@ -97,9 +97,8 @@ a {
 .site-header {
   display: flex;
   justify-content: space-between;
-  padding: 20px 0;
+  padding: 20px 0px 52px 0px
   background: var(--site-header);
-  margin-bottom: 32px;
   align-items: center;
 }
 .site-title a {
@@ -611,8 +610,8 @@ html::-webkit-scrollbar-thumb {
 
 .timeline__progressbar {
   --width: 2px;
-  --left: -moz-calc(((15vw / 2) + 15px) - (var(--width) / 2));
-  --left: calc(((15vw / 2) + 15px) - (var(--width) / 2));
+  --left: -moz-calc(((15vw / 2) + 15px) - (var(--width) / 2)); 
+  --left: calc(((15vw / 2) + 15px) - (var(--width) / 2)); 
   position: absolute;
   left: var(--left);
   width: var(--width);
@@ -625,7 +624,7 @@ html::-webkit-scrollbar-thumb {
   content: "";
   position: fixed;
   top: 0;
-  left: var(--left);
+  /* Rimosso --> left: var(--left);*/
   width: var(--width);
   height: 50vh;
   background: -webkit-gradient(linear, left top, left bottom, from(#b25d46), color-stop(#a74141), color-stop(#743879), to(#4a3ca0));
